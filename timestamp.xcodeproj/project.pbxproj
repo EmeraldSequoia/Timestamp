@@ -78,6 +78,9 @@
 		92BC2D4911976E73003A3725 /* iPhoneAppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 92BC2D4811976E72003A3725 /* iPhoneAppIcon.png */; };
 		92C083D61617921E00130263 /* TSNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C083D51617921E00130263 /* TSNavController.m */; };
 		92CBF8F915645C890054069E /* TopOptionStepperCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92CBF8F815645C890054069E /* TopOptionStepperCell.xib */; };
+		92D773432AF85AD500302878 /* libeslocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92D773362AF8592D00302878 /* libeslocation.a */; };
+		92D773442AF85AD500302878 /* libESTime.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92D7732F2AF8591B00302878 /* libESTime.a */; };
+		92D773452AF85AD500302878 /* libesutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92D773422AF85A5E00302878 /* libesutil.a */; };
 		92DEC422153653AA007C6A4A /* Default-Landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92DEC420153653AA007C6A4A /* Default-Landscape@2x.png */; };
 		92DEC423153653AA007C6A4A /* Default-Portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92DEC421153653AA007C6A4A /* Default-Portrait@2x.png */; };
 		92DEC425153658C7007C6A4A /* iPadAppIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92DEC424153658C7007C6A4A /* iPadAppIcon@2x.png */; };
@@ -104,55 +107,52 @@
 		92EDD99A213DC4AB0036F80C /* loc-tzOffsets-2010l-3961994294.dat in CopyFiles */ = {isa = PBXBuildFile; fileRef = 92F9B55214D1D38100AA49FD /* loc-tzOffsets-2010l-3961994294.dat */; };
 		92EDD99B213DC4AB0036F80C /* loc-tzOffsets-2010o-3961994294.dat in CopyFiles */ = {isa = PBXBuildFile; fileRef = 92F9B55314D1D38100AA49FD /* loc-tzOffsets-2010o-3961994294.dat */; };
 		92EDD99C213DC4B10036F80C /* loc-a1Codes.dat in CopyFiles */ = {isa = PBXBuildFile; fileRef = 92F9B54314D1D38100AA49FD /* loc-a1Codes.dat */; };
-		92F9B51C14D0F0B100AA49FD /* libeslocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92F9B51914D0F08700AA49FD /* libeslocation.a */; };
 		92F9B52614D0F1D300AA49FD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92F9B52514D0F1D300AA49FD /* CoreLocation.framework */; };
 		92FA03531617B3A100661203 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92FA03521617B3A100661203 /* Default-568h@2x.png */; };
-		92FB888E14D0D4CC00FB1842 /* libESTime.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9299E67E14D0CCCB008802B1 /* libESTime.a */; };
-		92FB888F14D0D4D900FB1842 /* libesutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9299E67314D0CCAE008802B1 /* libesutil.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9299E67214D0CCAE008802B1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9299E66B14D0CCAE008802B1 /* esutil.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D2AAC07E0554694100DB518D;
-			remoteInfo = esutil;
-		};
-		9299E67D14D0CCCB008802B1 /* PBXContainerItemProxy */ = {
+		92D7732E2AF8591B00302878 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9299E67514D0CCCB008802B1 /* ESTime.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = D2AAC07E0554694100DB518D;
 			remoteInfo = ESTime;
 		};
-		92F9B51814D0F08700AA49FD /* PBXContainerItemProxy */ = {
+		92D773352AF8592D00302878 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 92F9B50F14D0F08600AA49FD /* eslocation.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 92C3B271139448F300880094;
 			remoteInfo = eslocation;
 		};
-		92F9B51A14D0F0A800AA49FD /* PBXContainerItemProxy */ = {
+		92D7733A2AF85A5E00302878 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 92F9B50F14D0F08600AA49FD /* eslocation.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 92C3B270139448F300880094;
 			remoteInfo = eslocation;
 		};
-		92FB889014D0D50900FB1842 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9299E66B14D0CCAE008802B1 /* esutil.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = D2AAC07D0554694100DB518D;
-			remoteInfo = esutil;
-		};
-		92FB889214D0D50E00FB1842 /* PBXContainerItemProxy */ = {
+		92D7733C2AF85A5E00302878 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9299E67514D0CCCB008802B1 /* ESTime.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = D2AAC07D0554694100DB518D;
 			remoteInfo = ESTime;
+		};
+		92D7733E2AF85A5E00302878 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92D773372AF85A5E00302878 /* esutil.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = esutil;
+		};
+		92D773412AF85A5E00302878 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92D773372AF85A5E00302878 /* esutil.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = esutil;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -253,8 +253,8 @@
 		9297F3E011DFFA7E007A3253 /* RefZeroOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RefZeroOff.png; path = Resources/RefZeroOff.png; sourceTree = "<group>"; };
 		9297F3E111DFFA7E007A3253 /* RefZeroOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RefZeroOn.png; path = Resources/RefZeroOn.png; sourceTree = "<group>"; };
 		9297F47411E0277F007A3253 /* TSEventViewController_Pad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TSEventViewController_Pad.xib; sourceTree = "<group>"; };
-		9299E66B14D0CCAE008802B1 /* esutil.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = esutil.xcodeproj; path = deps/esutil/ios/esutil.xcodeproj; sourceTree = SOURCE_ROOT; };
-		9299E67514D0CCCB008802B1 /* ESTime.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ESTime.xcodeproj; path = deps/estime/ios/ESTime.xcodeproj; sourceTree = SOURCE_ROOT; };
+		9299E66B14D0CCAE008802B1 /* esutil.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = esutil.xcodeproj; path = ../esutil/ios/esutil.xcodeproj; sourceTree = SOURCE_ROOT; };
+		9299E67514D0CCCB008802B1 /* ESTime.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ESTime.xcodeproj; path = ../estime/ios/ESTime.xcodeproj; sourceTree = SOURCE_ROOT; };
 		929BCC3616EAC5DD0063F837 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
 		929CBF6B12FE1D6A009BF486 /* TSTimeHistory.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = TSTimeHistory.mm; path = Shared/TSTimeHistory.mm; sourceTree = "<group>"; };
 		92B3A720119304EF0028F549 /* TSTimeHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSTimeHistory.h; path = Shared/TSTimeHistory.h; sourceTree = "<group>"; };
@@ -275,6 +275,7 @@
 		92C083D41617921E00130263 /* TSNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSNavController.h; path = Shared/TSNavController.h; sourceTree = "<group>"; };
 		92C083D51617921E00130263 /* TSNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TSNavController.m; path = Shared/TSNavController.m; sourceTree = "<group>"; };
 		92CBF8F815645C890054069E /* TopOptionStepperCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TopOptionStepperCell.xib; path = Shared/TopOptionStepperCell.xib; sourceTree = "<group>"; };
+		92D773372AF85A5E00302878 /* esutil.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = esutil.xcodeproj; path = /Users/spucci/github/esutil/ios/esutil.xcodeproj; sourceTree = "<absolute>"; };
 		92DEC420153653AA007C6A4A /* Default-Landscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape@2x.png"; path = "Resources/Default-Landscape@2x.png"; sourceTree = "<group>"; };
 		92DEC421153653AA007C6A4A /* Default-Portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait@2x.png"; path = "Resources/Default-Portrait@2x.png"; sourceTree = "<group>"; };
 		92DEC424153658C7007C6A4A /* iPadAppIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPadAppIcon@2x.png"; path = "Resources/iPadAppIcon@2x.png"; sourceTree = "<group>"; };
@@ -285,7 +286,7 @@
 		92EB480611933B7F00F43CF7 /* TSSharedAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSSharedAppDelegate.h; path = Shared/TSSharedAppDelegate.h; sourceTree = "<group>"; };
 		92EB480711933B7F00F43CF7 /* TSSharedAppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = TSSharedAppDelegate.mm; path = Shared/TSSharedAppDelegate.mm; sourceTree = "<group>"; };
 		92ECA83D11A37CA50086BF31 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
-		92F9B50F14D0F08600AA49FD /* eslocation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = eslocation.xcodeproj; path = deps/eslocation/ios/eslocation.xcodeproj; sourceTree = SOURCE_ROOT; };
+		92F9B50F14D0F08600AA49FD /* eslocation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = eslocation.xcodeproj; path = ../eslocation/ios/eslocation.xcodeproj; sourceTree = SOURCE_ROOT; };
 		92F9B52514D0F1D300AA49FD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		92F9B54214D1D38100AA49FD /* loc-a1.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = "loc-a1.dat"; path = "deps/eslocation/data/loc-a1.dat"; sourceTree = SOURCE_ROOT; };
 		92F9B54314D1D38100AA49FD /* loc-a1Codes.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = "loc-a1Codes.dat"; path = "deps/eslocation/data/loc-a1Codes.dat"; sourceTree = SOURCE_ROOT; };
@@ -313,11 +314,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92D773432AF85AD500302878 /* libeslocation.a in Frameworks */,
+				92D773442AF85AD500302878 /* libESTime.a in Frameworks */,
+				92D773452AF85AD500302878 /* libesutil.a in Frameworks */,
 				929BCC3716EAC5DD0063F837 /* ExternalAccessory.framework in Frameworks */,
 				92F9B52614D0F1D300AA49FD /* CoreLocation.framework in Frameworks */,
-				92FB888F14D0D4D900FB1842 /* libesutil.a in Frameworks */,
-				92FB888E14D0D4CC00FB1842 /* libESTime.a in Frameworks */,
-				92F9B51C14D0F0B100AA49FD /* libeslocation.a in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
@@ -411,6 +412,7 @@
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				92D773372AF85A5E00302878 /* esutil.xcodeproj */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -533,26 +535,26 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		9299E66C14D0CCAE008802B1 /* Products */ = {
+		92D7732B2AF8591B00302878 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9299E67314D0CCAE008802B1 /* libesutil.a */,
+				92D7732F2AF8591B00302878 /* libESTime.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9299E67614D0CCCB008802B1 /* Products */ = {
+		92D773322AF8592D00302878 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9299E67E14D0CCCB008802B1 /* libESTime.a */,
+				92D773362AF8592D00302878 /* libeslocation.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		92F9B51014D0F08600AA49FD /* Products */ = {
+		92D773382AF85A5E00302878 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				92F9B51914D0F08700AA49FD /* libeslocation.a */,
+				92D773422AF85A5E00302878 /* libesutil.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -575,9 +577,9 @@
 			buildRules = (
 			);
 			dependencies = (
-				92F9B51B14D0F0A800AA49FD /* PBXTargetDependency */,
-				92FB889314D0D50E00FB1842 /* PBXTargetDependency */,
-				92FB889114D0D50900FB1842 /* PBXTargetDependency */,
+				92D7733F2AF85A5E00302878 /* PBXTargetDependency */,
+				92D7733D2AF85A5E00302878 /* PBXTargetDependency */,
+				92D7733B2AF85A5E00302878 /* PBXTargetDependency */,
 			);
 			name = Timestamp;
 			productName = timestamp;
@@ -613,16 +615,16 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 92F9B51014D0F08600AA49FD /* Products */;
+					ProductGroup = 92D773322AF8592D00302878 /* Products */;
 					ProjectRef = 92F9B50F14D0F08600AA49FD /* eslocation.xcodeproj */;
 				},
 				{
-					ProductGroup = 9299E67614D0CCCB008802B1 /* Products */;
+					ProductGroup = 92D7732B2AF8591B00302878 /* Products */;
 					ProjectRef = 9299E67514D0CCCB008802B1 /* ESTime.xcodeproj */;
 				},
 				{
-					ProductGroup = 9299E66C14D0CCAE008802B1 /* Products */;
-					ProjectRef = 9299E66B14D0CCAE008802B1 /* esutil.xcodeproj */;
+					ProductGroup = 92D773382AF85A5E00302878 /* Products */;
+					ProjectRef = 92D773372AF85A5E00302878 /* esutil.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -633,25 +635,25 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		9299E67314D0CCAE008802B1 /* libesutil.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libesutil.a;
-			remoteRef = 9299E67214D0CCAE008802B1 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		9299E67E14D0CCCB008802B1 /* libESTime.a */ = {
+		92D7732F2AF8591B00302878 /* libESTime.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libESTime.a;
-			remoteRef = 9299E67D14D0CCCB008802B1 /* PBXContainerItemProxy */;
+			remoteRef = 92D7732E2AF8591B00302878 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		92F9B51914D0F08700AA49FD /* libeslocation.a */ = {
+		92D773362AF8592D00302878 /* libeslocation.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libeslocation.a;
-			remoteRef = 92F9B51814D0F08700AA49FD /* PBXContainerItemProxy */;
+			remoteRef = 92D773352AF8592D00302878 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		92D773422AF85A5E00302878 /* libesutil.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libesutil.a;
+			remoteRef = 92D773412AF85A5E00302878 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -795,20 +797,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		92F9B51B14D0F0A800AA49FD /* PBXTargetDependency */ = {
+		92D7733B2AF85A5E00302878 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = eslocation;
-			targetProxy = 92F9B51A14D0F0A800AA49FD /* PBXContainerItemProxy */;
+			targetProxy = 92D7733A2AF85A5E00302878 /* PBXContainerItemProxy */;
 		};
-		92FB889114D0D50900FB1842 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = esutil;
-			targetProxy = 92FB889014D0D50900FB1842 /* PBXContainerItemProxy */;
-		};
-		92FB889314D0D50E00FB1842 /* PBXTargetDependency */ = {
+		92D7733D2AF85A5E00302878 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ESTime;
-			targetProxy = 92FB889214D0D50E00FB1842 /* PBXContainerItemProxy */;
+			targetProxy = 92D7733C2AF85A5E00302878 /* PBXContainerItemProxy */;
+		};
+		92D7733F2AF85A5E00302878 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = esutil;
+			targetProxy = 92D7733E2AF85A5E00302878 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -830,12 +832,9 @@
 				GCC_PREFIX_HEADER = timestamp_Prefix.pch;
 				GCC_THUMB_SUPPORT = NO;
 				HEADER_SEARCH_PATHS = (
-					../deps/esutil/src,
-					../deps/estime/src,
-					../deps/eslocation/src,
-					deps/esutil/src,
-					deps/estime/src,
-					deps/eslocation/src,
+					../esutil/src,
+					../estime/src,
+					../eslocation/src,
 				);
 				INFOPLIST_FILE = "timestamp-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.emeraldsequoia.Timestamp;
@@ -860,12 +859,9 @@
 				GCC_PREFIX_HEADER = timestamp_Prefix.pch;
 				GCC_THUMB_SUPPORT = NO;
 				HEADER_SEARCH_PATHS = (
-					../deps/esutil/src,
-					../deps/estime/src,
-					../deps/eslocation/src,
-					deps/esutil/src,
-					deps/estime/src,
-					deps/eslocation/src,
+					../esutil/src,
+					../estime/src,
+					../eslocation/src,
 				);
 				INFOPLIST_FILE = "timestamp-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.emeraldsequoia.Timestamp;
@@ -938,12 +934,9 @@
 				GCC_PREFIX_HEADER = timestamp_Prefix.pch;
 				GCC_THUMB_SUPPORT = NO;
 				HEADER_SEARCH_PATHS = (
-					../deps/esutil/src,
-					../deps/estime/src,
-					../deps/eslocation/src,
-					deps/esutil/src,
-					deps/estime/src,
-					deps/eslocation/src,
+					../esutil/src,
+					../estime/src,
+					../eslocation/src,
 				);
 				INFOPLIST_FILE = "timestamp-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.emeraldsequoia.Timestamp;
