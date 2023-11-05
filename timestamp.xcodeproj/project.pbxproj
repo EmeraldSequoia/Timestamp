@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -154,6 +154,13 @@
 			remoteGlobalIDString = D2AAC07E0554694100DB518D;
 			remoteInfo = esutil;
 		};
+		92D7734F2AF8628900302878 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9299E66B14D0CCAE008802B1 /* esutil.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = esutil;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -288,24 +295,24 @@
 		92ECA83D11A37CA50086BF31 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		92F9B50F14D0F08600AA49FD /* eslocation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = eslocation.xcodeproj; path = ../eslocation/ios/eslocation.xcodeproj; sourceTree = SOURCE_ROOT; };
 		92F9B52514D0F1D300AA49FD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		92F9B54214D1D38100AA49FD /* loc-a1.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = "loc-a1.dat"; path = "deps/eslocation/data/loc-a1.dat"; sourceTree = SOURCE_ROOT; };
-		92F9B54314D1D38100AA49FD /* loc-a1Codes.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = "loc-a1Codes.dat"; path = "deps/eslocation/data/loc-a1Codes.dat"; sourceTree = SOURCE_ROOT; };
-		92F9B54414D1D38100AA49FD /* loc-a2.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = "loc-a2.dat"; path = "deps/eslocation/data/loc-a2.dat"; sourceTree = SOURCE_ROOT; };
-		92F9B54514D1D38100AA49FD /* loc-cc.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = "loc-cc.dat"; path = "deps/eslocation/data/loc-cc.dat"; sourceTree = SOURCE_ROOT; };
-		92F9B54614D1D38100AA49FD /* loc-ccCodes.dat */ = {isa = PBXFileReference; lastKnownFileType = text; name = "loc-ccCodes.dat"; path = "deps/eslocation/data/loc-ccCodes.dat"; sourceTree = SOURCE_ROOT; };
-		92F9B54714D1D38100AA49FD /* loc-data.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = "loc-data.dat"; path = "deps/eslocation/data/loc-data.dat"; sourceTree = SOURCE_ROOT; };
-		92F9B54814D1D38100AA49FD /* loc-index.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = "loc-index.dat"; path = "deps/eslocation/data/loc-index.dat"; sourceTree = SOURCE_ROOT; };
-		92F9B54914D1D38100AA49FD /* loc-names.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = "loc-names.dat"; path = "deps/eslocation/data/loc-names.dat"; sourceTree = SOURCE_ROOT; };
-		92F9B54A14D1D38100AA49FD /* loc-region.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = "loc-region.dat"; path = "deps/eslocation/data/loc-region.dat"; sourceTree = SOURCE_ROOT; };
-		92F9B54B14D1D38100AA49FD /* loc-regiondesc.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = "loc-regiondesc.dat"; path = "deps/eslocation/data/loc-regiondesc.dat"; sourceTree = SOURCE_ROOT; };
-		92F9B54C14D1D38100AA49FD /* loc-tz.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = "loc-tz.dat"; path = "deps/eslocation/data/loc-tz.dat"; sourceTree = SOURCE_ROOT; };
-		92F9B54D14D1D38100AA49FD /* loc-tzNames.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = "loc-tzNames.dat"; path = "deps/eslocation/data/loc-tzNames.dat"; sourceTree = SOURCE_ROOT; };
-		92F9B54E14D1D38100AA49FD /* loc-tzNames.sum */ = {isa = PBXFileReference; lastKnownFileType = text; name = "loc-tzNames.sum"; path = "deps/eslocation/data/loc-tzNames.sum"; sourceTree = SOURCE_ROOT; };
-		92F9B54F14D1D38100AA49FD /* loc-tzOffsets-3x-3961994294.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = "loc-tzOffsets-3x-3961994294.dat"; path = "deps/eslocation/data/loc-tzOffsets-3x-3961994294.dat"; sourceTree = SOURCE_ROOT; };
-		92F9B55014D1D38100AA49FD /* loc-tzOffsets-2010i-3961994294.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = "loc-tzOffsets-2010i-3961994294.dat"; path = "deps/eslocation/data/loc-tzOffsets-2010i-3961994294.dat"; sourceTree = SOURCE_ROOT; };
-		92F9B55114D1D38100AA49FD /* loc-tzOffsets-2010k-3961994294.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = "loc-tzOffsets-2010k-3961994294.dat"; path = "deps/eslocation/data/loc-tzOffsets-2010k-3961994294.dat"; sourceTree = SOURCE_ROOT; };
-		92F9B55214D1D38100AA49FD /* loc-tzOffsets-2010l-3961994294.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = "loc-tzOffsets-2010l-3961994294.dat"; path = "deps/eslocation/data/loc-tzOffsets-2010l-3961994294.dat"; sourceTree = SOURCE_ROOT; };
-		92F9B55314D1D38100AA49FD /* loc-tzOffsets-2010o-3961994294.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = "loc-tzOffsets-2010o-3961994294.dat"; path = "deps/eslocation/data/loc-tzOffsets-2010o-3961994294.dat"; sourceTree = SOURCE_ROOT; };
+		92F9B54214D1D38100AA49FD /* loc-a1.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = "loc-a1.dat"; path = "../eslocation/data/loc-a1.dat"; sourceTree = SOURCE_ROOT; };
+		92F9B54314D1D38100AA49FD /* loc-a1Codes.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = "loc-a1Codes.dat"; path = "../eslocation/data/loc-a1Codes.dat"; sourceTree = SOURCE_ROOT; };
+		92F9B54414D1D38100AA49FD /* loc-a2.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = "loc-a2.dat"; path = "../eslocation/data/loc-a2.dat"; sourceTree = SOURCE_ROOT; };
+		92F9B54514D1D38100AA49FD /* loc-cc.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = "loc-cc.dat"; path = "../eslocation/data/loc-cc.dat"; sourceTree = SOURCE_ROOT; };
+		92F9B54614D1D38100AA49FD /* loc-ccCodes.dat */ = {isa = PBXFileReference; lastKnownFileType = text; name = "loc-ccCodes.dat"; path = "../eslocation/data/loc-ccCodes.dat"; sourceTree = SOURCE_ROOT; };
+		92F9B54714D1D38100AA49FD /* loc-data.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = "loc-data.dat"; path = "../eslocation/data/loc-data.dat"; sourceTree = SOURCE_ROOT; };
+		92F9B54814D1D38100AA49FD /* loc-index.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = "loc-index.dat"; path = "../eslocation/data/loc-index.dat"; sourceTree = SOURCE_ROOT; };
+		92F9B54914D1D38100AA49FD /* loc-names.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = "loc-names.dat"; path = "../eslocation/data/loc-names.dat"; sourceTree = SOURCE_ROOT; };
+		92F9B54A14D1D38100AA49FD /* loc-region.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = "loc-region.dat"; path = "../eslocation/data/loc-region.dat"; sourceTree = SOURCE_ROOT; };
+		92F9B54B14D1D38100AA49FD /* loc-regiondesc.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = "loc-regiondesc.dat"; path = "../eslocation/data/loc-regiondesc.dat"; sourceTree = SOURCE_ROOT; };
+		92F9B54C14D1D38100AA49FD /* loc-tz.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = "loc-tz.dat"; path = "../eslocation/data/loc-tz.dat"; sourceTree = SOURCE_ROOT; };
+		92F9B54D14D1D38100AA49FD /* loc-tzNames.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = "loc-tzNames.dat"; path = "../eslocation/data/loc-tzNames.dat"; sourceTree = SOURCE_ROOT; };
+		92F9B54E14D1D38100AA49FD /* loc-tzNames.sum */ = {isa = PBXFileReference; lastKnownFileType = text; name = "loc-tzNames.sum"; path = "../eslocation/data/loc-tzNames.sum"; sourceTree = SOURCE_ROOT; };
+		92F9B54F14D1D38100AA49FD /* loc-tzOffsets-3x-3961994294.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = "loc-tzOffsets-3x-3961994294.dat"; path = "../eslocation/data/loc-tzOffsets-3x-3961994294.dat"; sourceTree = SOURCE_ROOT; };
+		92F9B55014D1D38100AA49FD /* loc-tzOffsets-2010i-3961994294.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = "loc-tzOffsets-2010i-3961994294.dat"; path = "../eslocation/data/loc-tzOffsets-2010i-3961994294.dat"; sourceTree = SOURCE_ROOT; };
+		92F9B55114D1D38100AA49FD /* loc-tzOffsets-2010k-3961994294.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = "loc-tzOffsets-2010k-3961994294.dat"; path = "../eslocation/data/loc-tzOffsets-2010k-3961994294.dat"; sourceTree = SOURCE_ROOT; };
+		92F9B55214D1D38100AA49FD /* loc-tzOffsets-2010l-3961994294.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = "loc-tzOffsets-2010l-3961994294.dat"; path = "../eslocation/data/loc-tzOffsets-2010l-3961994294.dat"; sourceTree = SOURCE_ROOT; };
+		92F9B55314D1D38100AA49FD /* loc-tzOffsets-2010o-3961994294.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = "loc-tzOffsets-2010o-3961994294.dat"; path = "../eslocation/data/loc-tzOffsets-2010o-3961994294.dat"; sourceTree = SOURCE_ROOT; };
 		92FA03521617B3A100661203 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Resources/Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -559,6 +566,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		92D7734C2AF8628900302878 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92D773502AF8628900302878 /* libesutil.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -623,6 +638,10 @@
 					ProjectRef = 9299E67514D0CCCB008802B1 /* ESTime.xcodeproj */;
 				},
 				{
+					ProductGroup = 92D7734C2AF8628900302878 /* Products */;
+					ProjectRef = 9299E66B14D0CCAE008802B1 /* esutil.xcodeproj */;
+				},
+				{
 					ProductGroup = 92D773382AF85A5E00302878 /* Products */;
 					ProjectRef = 92D773372AF85A5E00302878 /* esutil.xcodeproj */;
 				},
@@ -654,6 +673,13 @@
 			fileType = archive.ar;
 			path = libesutil.a;
 			remoteRef = 92D773412AF85A5E00302878 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		92D773502AF8628900302878 /* libesutil.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libesutil.a;
+			remoteRef = 92D7734F2AF8628900302878 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -726,6 +752,7 @@
 /* Begin PBXShellScriptBuildPhase section */
 		924C030F118C97BA00DDE01C /* Record svn version */ = {
 			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
 			files = (
 			);
@@ -736,11 +763,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "deps/buildscripts/recordSVNVersion.pl Timestamp\n";
+			shellScript = "../buildscripts/recordSVNVersion.pl Timestamp\n";
 			showEnvVarsInLog = 0;
 		};
 		924C0318118C99BB00DDE01C /* Install Help */ = {
 			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
 			files = (
 			);
@@ -756,6 +784,7 @@
 		};
 		92E2613211910CDE001F3FC4 /* Generate localizable strings file */ = {
 			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
 			files = (
 			);
@@ -766,7 +795,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "genStrings */*.h */*.m";
+			shellScript = "genStrings */*.h */*.m\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
