@@ -1,0 +1,80 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en">
+<head>
+
+ <title>Emerald Timestamp</title>
+ <meta name="viewport" content="width=device-width" />
+ <link rel="apple-touch-icon" href="../../images/eblogo57-1.png">
+ <link rel="shortcut icon" href="../../images/GlyphBerry.png" type="image/png">
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+ <link rel="stylesheet" href="main.css"/>
+</head>
+<body>
+
+<img src="../Icon-Small.png" alt="icon" hspace=3>
+<b>EMERALD_PRODUCT</b> lets you capture the precise times of events, and associate a description with each one.
+<p>
+Press the large button with the arrows pointing down to record the current time value.  It will show up at the top of the list below.  Add as many as you like; the list scrolls.
+<p>
+To add a one-line description, tap an event in the list and enter the description on the detail page (see below).
+<p>
+Tap the date or time at the top of either screen to change the format of the time displays.  Each tap cycles between 12-hour local, 24-hour local, UTC (aka GMT), <a href="http://en.wikipedia.org/wiki/Julian_day">Julian Date<img src="extlink.png"></a> (an astronomical time reference; see below), and "interval" times (see below).  You can choose a subset of these time formats to be cycled through using the Options panel (see below).
+<p>
+To find the difference in times between events, switch to "interval" display (see above) and then tap the "zero" button on an event in the list, and other times will be measured against that zero reference. Equivalently, press the "Use as reference zero" button on the detail page for an event.  The behavior is different depending on whether the option "Allow multiple interval zeroes" is turned on (see below):
+<ul>
+<li>If off (the default), then a single reference zero is used for all events, and events prior to the designated zero are displayed with negative interval times.
+<li>If on, then intervals are always measured forward from the previous zero, and the first (oldest) event is always a zero event.
+</ul>
+To go back to absolute times, tap the main time display at the top until your desired time base is displayed.
+<p>
+Options (Settings) are available via the Options button at the bottom center.  On the Options screens you can
+<ul>
+<li>Create custom event-capture buttons, which preload the captured event with a string you can define (the string also appears as the button title)
+<li>Disable the device's Auto-Lock function so that it won't lock the screen while you're waiting for an event to occur
+<li>Disable the button click sound
+<li>Select which time formats are included in the cycle when tapping on a date or time.  Note that there are two Julian Date (JD) formats, depending on whether the JD displays are referenced to UTC or to TT.  The latter is preferred for astronomical measurements (see <a href="http://en.wikipedia.org/wiki/Julian_day">Wikipedia<img src="extlink.png"></a>) but the default is UTC to be consistent with older versions of EMERALD_PRODUCT.  Each timestamp indicates the current global setting (i.e., "JD (UTC)" or "JD (TT)").
+<li>Select the threshold of error bound which results in green buttons and events (see below)
+<li>Specify that email should be sent with tab-separated values (TSV) or comma-separated values (CSV) instead of plain text
+<li>Limit the number of days and events sent when emailing "All events".
+<li>Specify that there can be multiple zero points for intervals.
+</ul>
+<p>
+<p>
+The iPhone's internal clock can be somewhat unreliable.  So when <b>EMERALD_PRODUCT</b> starts up (and every time it is awakened after the device has been locked) it uses <a href="http://en.wikipedia.org/wiki/Network_Time_Protocol">NTP<img src="extlink.png"></a> to synchronize its own clock with the international standard atomic clocks.  This process requires network access and can take several seconds.  Until it is done the accuracy of event timing is somewhat uncertain.  During that uncertain time, <b>EMERALD_PRODUCT</b>'s big button is yellow.  When the sync is complete, the button turns green and event timing is very accurate.
+<p>
+EMERALD_PRODUCT uses location services to determine the best time servers to contact.  Time servers that are in the same country will generally result in faster round-trip times and thus better accuracy and faster synchronization.
+<p>
+You can record events even when the button is yellow.
+If a sync is completed before the app is shut down or the device is locked, then the sync will be applied retroactively to all events captured since the last startup or unlock
+(and the displayed time values for such events may change as a result).
+The green/yellow indicator light to the left of each event indicates its time accuracy.
+<p>
+Tapping an event in the list brings up a page showing more detail about that event.
+You can add a one-line description by tapping the "Event description" field.
+You can email this event's details or the details of all the events.
+<p>
+The detail page also shows an accuracy bound for the time of the event.  The accuracy of synchronized events is primarily constrained by the length of time it takes for a round trip from the device to the NTP server and back; server times are usually much more accurate than that round-trip time.  EMERALD_PRODUCT reports the accuracy based on that round-trip time, refined by a number of request-report cycles, and including an estimate of the server error based on its own reported parameters.
+<p>
+A synchronization is considered "green" by default if its reported accuracy is less than 0.40 seconds; this threshold may be set in Settings (see above).  In "interval" mode (see above) both events must have an accuracy less than the specified accuracy for the interval to be green; the detail page reports the actual combined accuracy (which may not be larger than an individual event's accuracy if the app session was running continuously between the two events).  Regardless of the threshold chosen, EMERALD_PRODUCT continues to refine the synchronization until the error is no more than 0.16 seconds, or until it times out trying (after a minute or two).
+<p>
+At the top right of the main screen is an indicator of the current accuracy bound.  It's gray while synchronizing, and white at other times.  Tap it to force another synchronization.
+<p>
+Press the Edit button in the lower right to remove one or more events from the list.  The button at the lower left starts out as "Delete All", which will remove all events at once; or you can tap individual events to select them and then tap the lower-left button, which will be labeled "Delete (n)" where n is the number of events that will be deleted.
+<p>
+This version of EMERALD_PRODUCT has tentative support for live leap-second display.  See <a href="http://emeraldsequoia.com/ts/leapSecond.html">this page on the Emerald Sequoia website<img src="extlink.png"></a> for details.
+<p>
+<div display='inline' class='device'>
+<p>
+<hr>
+<div style="font-size:8pt; text-align:center">
+ <a href="http://emeraldsequoia.com"><img src="../Logo.png" alt="logo"></a><span style="font-size:3pt"><br><br></span>
+EMERALD_VERSION_STRING
+<p>
+<b>EMERALD_PRODUCT</b> is copyright 2010-2018 <a href="http://emeraldsequoia.com">Emerald Sequoia LLC<img src="extlink.png"></a>, all rights reserved.<br>
+NTP code derived from public domain sources covered by <a href="http://emeraldsequoia.com/ts/ntpcopyright.html">these copyrights<img src="extlink.png"></a>.
+</div>
+<p>
+Visit the <b>EMERALD_PRODUCT</b> website <a href="http://emeraldsequoia.com/ts">here.<img src="extlink.png"></a>
+<p>
+See the release notes for this product <a href="http://emeraldsequoia.com/ts/ReleaseNotes.html">here.<img src="extlink.png"></a>
+</body>

@@ -1,0 +1,44 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1F99211E6FFE00A2BD8BCCFD360FAC111618A0BE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1F99211E6FFE00A2BD8BCCFD360FAC111618A0BE" : 9223372036854775807,
+    "0CE4F84D0BB1BE400B230C7DC42DD7451E089482" : 9223372036854775807,
+    "634779FE6B00AC6512B03A14D904DA128D4F380D" : 9223372036854775807,
+    "14BCE65051D8395386F25E1436D2558A64B28C2A" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "55029231-34CD-4FF4-862A-7A33A19275C8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1F99211E6FFE00A2BD8BCCFD360FAC111618A0BE" : "m1\/",
+    "0CE4F84D0BB1BE400B230C7DC42DD7451E089482" : "..\/..\/libs\/estime\/m1",
+    "634779FE6B00AC6512B03A14D904DA128D4F380D" : "..\/..\/libs\/eslocation\/m1",
+    "14BCE65051D8395386F25E1436D2558A64B28C2A" : "..\/..\/libs\/esutil\/m1"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "timestamp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "timestamp.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/71.202.139.132\/Users\/es\/git-repositories\/libs\/estime.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0CE4F84D0BB1BE400B230C7DC42DD7451E089482"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/71.202.139.132\/Users\/es\/git-repositories\/libs\/esutil.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "14BCE65051D8395386F25E1436D2558A64B28C2A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/71.202.139.132\/Users\/es\/git-repositories\/apps\/timestamp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1F99211E6FFE00A2BD8BCCFD360FAC111618A0BE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/71.202.139.132\/Users\/es\/git-repositories\/libs\/eslocation.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "634779FE6B00AC6512B03A14D904DA128D4F380D"
+    }
+  ]
+}

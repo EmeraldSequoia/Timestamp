@@ -1,0 +1,94 @@
+2.3.1
+- Support for iOS 14
+- Miscellaneous bug fixes
+
+2.2.1
+- Support for iPhone X
+- Miscellaneous bug fixes
+
+2.1.3
+- Hardware keyboards can now trigger events
+- Miscellaneous bug fixes
+
+2.1.2
+- New 2016 year-end leap second in table
+- Miscellaneous bug fixes
+
+2.1.1
+- New mid-2015 leap second in table
+- Miscellaneous bug fixes
+
+2.1
+- Support for iOS 7
+- New comma-separated value (CSV) format for emailing events
+- Fix issue where local time abbreviation was shown on UTC times
+- Fix issue where "Allow multiple zeroes" option was not saved across sessions
+
+2.0.7
+- iPhone 5 support reinstated
+- Please note:  Old devices (original iPhone, iPhone 3G, and 1st- and 2nd-gen iPod touch) are no longer supported
+
+2.0.6
+- Custom button names not saved
+
+2.0.5 (binary pulled from store)
+- Improve error reporting in Interval mode for events and reference zeroes captured with version 2.0.5 and later
+
+2.0.4:
+- Support for iOS 6
+- Landscape orientation supported in detail panel
+
+2.0.3:
+- Support for iOS 6
+
+2.0.2:
+- Relax constraint for green to 0.40 to account for more thorough error analysis,
+  and make it a user-settable option
+- Better reliability when synchronizing via unreliable network
+- Add option for which time formats are cycled through
+- Change method of reporting intervals that span a DST (summer time) transition
+
+2.0:
+- Custom predefined event names with buttons for each
+- Delete multiple events at once without clearing entire list
+- Live display of and capture of events during leap second (e.g., 23:59:60.3 UTC)
+- Landscape mode on iPhone for most screens
+- Settings (options) are now done in-app
+- Smaller footprint on NTP pool hosts
+- Option to control whether time or description is on top of each event row
+- First letter of event description automatically capitalized (if auto-capitalization is turned on for device)
+- Option for multiple zero reference points
+- Various minor aesthetic improvements and bug fixes
+
+1.4:
+- New option in Settings app to display JD dates in TT or UTC form
+- Fix crash attempting to mail a long list of events
+
+1.3.4
+- Fix incorrect year display the first few days of the year (applies retroactively to previously captured dates so they will now appear correct)
+
+1.3.3
+- Fix bug where unqualified event is mailed with missing accuracy column in TSV format
+
+1.3.2:
+- Support iOS 4.2
+- Fix timezone name on local times of events recorded during a different DST period
+
+1.3.1:
+- Misc small bugfixes
+
+1.3:
+- New interval display mode which can show the difference in time between any two events
+- Optional tick sound
+- Improved images for iPhone 4
+
+1.2:
+- Optimized for iOS 4
+- New options in Settings app for email format and limits
+
+1.1:
+- Current accuracy display now on main page; tapping it gets a new sync
+- Fix missing AM/PM in app's 12-hour mode when device is in 24-hour mode
+- Synchronization now tries again much sooner after a network-unavailable failure.
+- Workaround for some cases where device auto-lock setting is ignored
+- Mailing events now uses built-in message composer instead of switching to Mail

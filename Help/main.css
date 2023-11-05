@@ -1,0 +1,22 @@
+body {
+     background-color:#b9c3ca;
+}
+.device {
+    display:inline;
+}
+.website {
+    display:none;
+}
+
+@media (prefers-color-scheme: dark) {
+  /* Dark theme styles go here */
+    body {
+        background-color:black;
+        color: white;
+    }
+
+    a {
+      color: #8080ff;
+    }
+}
+ 

@@ -1,0 +1,48 @@
+Proposed alternative "mode" for Timestamps ("projects" and "stopwatches")
+Never implemented as the complexity was deemed not worht the cost.
+
+Projects:
+
+Each project button lists the number of hours and minutes (and seconds?) since the zero point for that project
+The stop button lists no time
+
+The master counter shows the hours:minutes:seconds for the current project, or the last project active if none is active
+
+The current project button (if any) is highlighted with a brighter color yellow or green
+
+Project start event lines show the accumulated time at project start (hours minutes seconds)
+Stop (all projects) event line shows accumulated time at project end
+
+Q: When switching to a new project, how to display the ending time of the previous project?
+A project switch event is really two events, a stop of the old project and a start of the new project.  Maybe the answer is, when you switch projects, it generates a "Stop project 1" and a "Start project 2" event (two events with one button press).  This is probably easiest to read and use, but what happens when the user deletes one but not the other of the two events?
+ - If the old project stop event is deleted, then we have two projects active.
+ - If the new project start event is deleted, then we may later have a stop event for that project with no start.
+Perhaps the answer is, since we operate by multiple selection now anyway, to select both events if either is selected.  A bit odd though.
+Alternatively, perhaps both times are listed on the same event cell.  Can we make a special cell for this purpose?  Hmm...
+Yes.  We also need a new event detail window for this project.  But maybe such cells are not editable?
+
+I like the idea of using the existing zero-point buttons to indicate the start of accumulated time for projects.  I suppose one issue is how to distinguish this mode from that of the "normal" interval mode.  Even if we say, in project mode, "interval" mode means "accumulated intervals for project", there's still the question of whether the master mode is Classic or Project.  To make this work, I think, we need a clear way of distinguishing the two displays.  Perhaps just a "accumulator" icon?
+
+
+Cumulative time displays.
+Walk back from most recent event until we find an event with a cached cumulative time.  Then walk forward filling in caches.
+Or maybe not even call it a cache -- redo cumulative numbers whenever we delete an entry.  Adding an entry only happens at the front so doesn't affect prior accumulations.  But... we need to be able to reset zeroes for projects.  And zeroes operate in both directions...
+Do we allow multiple project zeroes?  Why not?  Because it's not consistent with Classic mode?  But negative times just make zero sense for projects.  I think this needs to happen.  Of course the existing code relies on "the" reference zero event...
+
+Stopwatches:
+
+Each stopwatch Start/Stop button lists the accumulated timer time for that timer
+Each lap button shows the last accumulated time that lap button was pressed
+(btw, do we want a Lap/Reset button?)
+
+The master counter shows the hours:minutes:seconds for the timer whose button was last pressed
+(or maybe it slowly (1/sec) alternates between timers
+The master counter needs a timer counter display
+
+The buttons associated with the timer being displayed are highlighted with a brighter color of yellow or green
+
+Start lines have the accumulated time at start
+Stop lines have the accumulated time at stop
+Lap lines have the accumulated time at lap
+
+Stopwatches are pretty well-defined (though we do need to find somewhere to shoehorn in a timer number in the main display)

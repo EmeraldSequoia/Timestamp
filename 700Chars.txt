@@ -1,0 +1,33 @@
+Emerald Timestamp captures the precise time of events, and lets you associate a description with each one.  It is also a highly-accurate running clock.
+
+Very high precision:
+- Uses atomic clocks via NTP, usually accurate to within 0.2 second
+- Color coding (yellow and green) makes it obvious when you have a valid synchronization
+- The network is required for synchronization, but you can record events without it with less accuracy
+- When the app restarts, it uses the previous synchronization offset until the first sync comes in
+- Version 2.0 and above display leap seconds in progress
+
+Events are grouped by day in a scrolling list
+- Record as many events as you like
+- Add a description to any or all events
+- Create multiple buttons with custom names to predefine event descriptions
+- Easily show the difference in time between any two events
+
+Easily cycle between time representations by tapping on a time in the display:
+- Local 12-hour time
+- Local 24-hour time
+- UTC (aka GMT)
+- Julian Date (JD) (settable globally to JD(TT) or JD(UTC))
+- Interval from a reference time (using any event as a zero reference)
+
+There is also a running clock at the top of the display showing the time in the chosen format.
+
+Email the time and description of an event, or all events (uses your device's email program), optionally using TSV or CSV for spreadsheets.
+
+A complete description of each application feature can be found in the built-in Help screens and on the Emerald Sequoia LLC Web Site.  A developer's blog may also be found at http://emeraldsequoia.com/esblog/ .
+
+All date displays are localized, though the interface and Help are in English only.
+
+If you are having any trouble with the application whatsoever, please see our FAQ on the support page listed below and then contact us through that page if your problem is not resolved. We take pride in responding promptly to all support email requests.
+
+(NTP time synchronization requires network access.  Like all other iOS apps, Emerald Timestamp cannot set the device's internal clock.)
