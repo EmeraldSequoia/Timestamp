@@ -17,11 +17,11 @@ One way to set up the dependencies required for Timestamp would be:
 ```shell
 mkdir emeraldsequoia
 cd emeraldsequoia
-git clone git@github.com:EmeraldSequoia/Timestamp.git Timestamp
-git clone git@github.com:EmeraldSequoia/buildscripts.git buildscripts
-git clone git@github.com:EmeraldSequoia/esutil.git esutil
-git clone git@github.com:EmeraldSequoia/estime.git estime
-git clone git@github.com:EmeraldSequoia/eslocation.git eslocation
+git clone git@github.com:EmeraldSequoia/Timestamp.git
+git clone git@github.com:EmeraldSequoia/buildscripts.git
+git clone git@github.com:EmeraldSequoia/esutil.git
+git clone git@github.com:EmeraldSequoia/estime.git
+git clone git@github.com:EmeraldSequoia/eslocation.git
 
 ```
 
